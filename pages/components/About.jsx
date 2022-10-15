@@ -15,7 +15,7 @@ const About = () => {
           <h2 className="py-4">Who I am</h2>
 
           <p className="py-2 text-gray-600">
-            I hold a Master's degree in Computer Science from Lakehead
+            I hold a Master&apos;s degree in Computer Science from Lakehead
             University. I have around 3 years of work experience as a front-end
             developer. During these years I have worked with React, HTML, CSS,
             and also a little bit of Angular, and in terms of backend I have
