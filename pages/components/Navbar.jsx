@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/assets/sklogo.png";
+import logo from "../../public/assets/skfinal.png";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
