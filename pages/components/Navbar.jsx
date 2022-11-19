@@ -186,7 +186,7 @@ const Navbar = () => {
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <a
-                    href="https://drive.google.com/file/d/1H5xcrhTJcvRJ4s6gwTRKKxjb6xA-jEW-/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1b-CoSgfgB0PfiRxolzii_LUY2hhM3BO7/view?usp=share_link"
                     target="_blank"
                     rel="noreferrer"
                   >
