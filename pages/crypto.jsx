@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
+import cryptoImg from "../public/assets/projects/cryptoweb.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -27,16 +27,17 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router
-            DOM&quot; package. This application was built using the Coin Gecko
-            API.
+            The application is built using ReactJS and styled with Tailwind CSS.
+            Application wide state management is handeled by implementing Redux
+            Toolkiit query. The data is coming from CoinRanking RapidAPI and is
+            fetched using custom hooks supported by Redux Toolkit. Millify is
+            used to round up decimal digits at places which has a complex
+            numeric value. Along with that, momentjs library is used to display
+            date and time in news generated for crypto. React ChartJS is
+            utilized to build charts for each cryptocurrency which displays
+            their timeline as mentioned. . Another feature of this application
+            is dynamic routing through the &quot;React Router DOM&quot; package.
+            This application was built using the Coin Gecko API.
           </p>
           {/* <a
             href="https://github.com/fireclint/crypto-react-firebase"

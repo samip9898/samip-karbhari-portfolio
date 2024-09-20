@@ -19,9 +19,9 @@ const About = () => {
             web solutions, always eager to explore-learn-grab new skills and
             technologies for remaining upgraded to work in collaborative
             environments. A worthy team player with strong communication skills
-            and willingness to help. I am a Master&apos;s graduate having around
-            3 years of experience as a Front-End Developer primarily working
-            with JavaScript, React, HTML, Git for version control, REST APIs,
+            and willingness to help. I am a Master&apos;s graduate having strong
+            experience as a Front-End Developer primarily working with
+            JavaScript, React, HTML, Git for version control, REST APIs,
             front-end designing and more. I specialize in developing ReactJS web
             applications by creating custom reusable components for data
             manipulations and displaying data in company standard format.

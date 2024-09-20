@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import propertyImg from "../public/assets/projects/medweb.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -27,14 +27,23 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            A healthcare management system is vitally required in the modern
+            world, where an ongoing pandemic is turning into a significant
+            obstacle for users. A chatbot that is accessible 24*7 will be part
+            of this healthcare web application, enabling users to consult on any
+            health-related queries whenever they want without having to leave
+            their home. MedWeb is a full-stack web application with a built-in
+            medical chatbot utilizing the DialogFlow framework that can interact
+            with users about any health-related issues. The Layout is built in
+            React with CSS3 styling and firebase in th backend. The application
+            supports user authentication using firebase. Users are able to
+            create a new account using their email address. The chatbot can
+            suggest doctors for specific symptoms by sending their profile
+            information to the users. Users may also access the doctor&apos;s
+            profile, where they can learn more about the doctor and, if
+            necessary, make an appointment. Along with scheduling appointments
+            with the available doctors, the chatbot will be able to offer home
+            remedies for the user&apos;s medical problems.
           </p>
           {/* <a
             href="https://github.com/samip9898/Project-MedWeb/tree/master"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+// import netflixImg from "../public/assets/projects/netflix.jpg";
+import Globejournal from "../public/assets/projects/Globejournal.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,7 +14,7 @@ const globe = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={Globejournal}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">

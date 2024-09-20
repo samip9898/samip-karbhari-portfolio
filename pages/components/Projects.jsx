@@ -1,11 +1,12 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import React from "react";
-import propertyImg from "../../public/assets/projects/property.jpg";
-import cryptoImg from "../../public/assets/projects/crypto.jpg";
+import propertyImg from "../../public/assets/projects/medweb.png";
+import cryptoImg from "../../public/assets/projects/cryptoweb.png";
 import netflixImg from "../../public/assets/projects/netflix.jpg";
-import twitchImg from "../../public/assets/projects/twitch.jpg";
+import twitchImg from "../../public/assets/projects/shopit.png";
 import ProjectItem from "./ProjectItem";
+import Globejournal from "../../public/assets/projects/Globejournal.png";
 
 // samip-portfolio\public\assets\projects\property.jpg
 const Projects = () => {
@@ -29,7 +30,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="Globe Journal"
-            backgroundImg={netflixImg}
+            backgroundImg={Globejournal}
             projectUrl="/globe"
           />
           <ProjectItem
